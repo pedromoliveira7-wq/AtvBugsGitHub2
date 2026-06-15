@@ -295,7 +295,7 @@ def validar_cpf_formato(cpf):
     Retorna True se válido, False se inválido.
     """
     cpf = cpf.strip()
-    if len(cpf) != 14:
+    if len(cpf) != 11:
         return False
     for i, char in enumerate(cpf):
         if i in [3, 7]:
