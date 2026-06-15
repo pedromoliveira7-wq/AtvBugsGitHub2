@@ -135,6 +135,16 @@ def intercalar_listas(lista1, lista2):
     for i in range(tamanho):
         resultado.append(lista1[i])
         resultado.append(lista2[i])
+         
+        resultado.extend(lista1[tamanho;])
+        resultado.extend(lista2[tamanho;])
+           
+           return:resultado
+
+         lista = [1,3,5,6,7,8]
+         lista2 = [2,4]
+print(intercalar_listas(listal, lista2))
+
     # BUG: não adiciona os elementos restantes da lista maior
     return resultado
 
