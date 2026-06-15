@@ -107,7 +107,7 @@ def sao_anagramas(texto1, texto2):
     """Retorna True se os dois textos forem anagramas um do outro."""
     t1 = texto1.lower().replace(" ", "")
     t2 = texto2.lower().replace(" ", "")
-    return t1 == t2  # BUG: deveria ser sorted(t1) == sorted(t2)
+    return sorted(t1) == sorted(t2)  # BUG: deveria ser sorted(t1) == sorted(t2)
 
 
 # ------------------------------------------------------------
